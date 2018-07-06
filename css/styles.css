@@ -103,6 +103,10 @@ footer {
 	padding: 10px 15px;
 }
 
+.name a:hover {
+	color: darkgrey;
+}
+
 .main-nav a {
 	font-size: .95em;
 	color: #000;
@@ -110,7 +114,11 @@ footer {
 }
 
 .main-nav a:hover {
-	color: #fafafa;
+	color: darkgrey;
+}
+
+.main-footer a:hover {
+	color: darkgrey;
 }
 
 .main-footer li {
@@ -274,18 +282,8 @@ footer {
 
 	.col {
 		float: left;
+		width: 50%;
 		margin: 0 auto;
-		padding-left: 48px;
-	}
-
-	.first,
-	.third,
-	.fith,
-	.second,
-	.fourth,
-	.six {
-		width: 40%;
-		text-align: center;
 	}
 
 	.back-top {
@@ -326,7 +324,7 @@ footer {
 	}
 
 	.col {
-		max-width: 25%;
+		max-width: 33%;
 	}
 
 }
