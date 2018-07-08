@@ -131,7 +131,6 @@ footer {
 /* ---- Layout Containers ---- */
 
 .wrapper {
-  max-width: 900px;
   margin: 0 auto;
   border-radius: 0.35em;
   background-color: #fcfcfc;
@@ -179,12 +178,10 @@ footer {
 .container1 {
 	margin: 0 auto;
 	padding-bottom: 30px;
-	max-width: 350px;
 	text-align: center;
 }
 
 .container2 p {
-	max-width: 300px;
 	margin: 0 auto;
 	padding-bottom: 30px;
 }
@@ -219,7 +216,6 @@ footer {
 
 .headline{
 	text-align: center;
-	max-width: 70%;
 	margin: 0 auto;
 	padding-top: 20px;
 	color: black;
@@ -249,12 +245,6 @@ footer {
 
 @media (min-width: 768px) {
 
-/*	 .container1,
-	 .container2 {
-   		width: 90%;
-   	 	margin: 0 auto;
- 	 }*/
-
 	.main-nav li {
 	    display: inline-block;
 	    background: #fafafa;
@@ -263,7 +253,6 @@ footer {
 
 	.name a,
 	.main-nav a {
-		max-width: 900px;
 		margin: 0 auto;
 		padding: 10px 15px;
 	}
@@ -324,7 +313,7 @@ footer {
 	}
 
 	.col {
-		max-width: 33%;
+		width: 33%;
 	}
 
 }
